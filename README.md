@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+ 
 # Web Developer Landing Page
 #### :rocket: HTML5, CSS3, React.js, AJAX, JSON, Fontawesome Icons, Flexslider, Smooth scrolling effect, Cross browser compatible, Fully Responsive
  - $ : `git clone https://github.com/helpedison/Landing-page.git`
