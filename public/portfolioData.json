@@ -1,0 +1,126 @@
+{
+  "main": {
+    "name":"Edison Vargas",
+    "occupation":"Java Developer | Mule Developer",
+    "description":"",
+    "image":"profilepic.jpg",
+    "bio":"Proven expertise  as Backend Developer in implementing new features or new projects in technologies based on Mulesoft large companies from different fields, using traditional and  agile methodologies, always considering restrictions on time, cost, quality. Good experience as a Developer with advanced skills in programming, clean code, codemaintainability, cyclomaticn complexity, line of code, execution governors and limits,etc. Using the best practices. ",
+    "email": "helpedison@gmail.com",
+    "phone": "",
+    "address":{
+      "street":"Any where",
+      "city":"Colombia"
+      
+    },
+    "website": "https://github.com/helpedison",
+    "resumedownload":"http://something.com",
+    "social":[
+   
+      {
+        "name":"twitter",
+        "url":"https://twitter.com/edigramer",
+        "className":"fa fa-twitter"
+      },
+      
+      {
+        "name":"linkedin",
+        "url":"www.linkedin.com/in/edison-vargas-m-881861b4",
+        "className":"fa fa-linkedin"
+      },
+     
+      {
+        "name":"github",
+        "url":"https://github.com/helpedison",
+        "className":"fa fa-github"
+      }
+     
+    ]
+  },
+  "resume":{
+    "education":[
+      {
+        "school":"University Politecnico Grancolombia",
+        "degree":"Bachelor Software Engineer",
+        "graduated":"Ene 2019 - July 2023"
+        
+      }
+     
+    ],
+    "work":[
+      {
+        "company":"Globan",
+        "title":"Mulesoft Developer",
+        "years":"March 2020 - Present",
+        "description":"The proyects Developed solutions on products of Salesforce, I solved problems of integration and Cloudhub for telecommunications customers in Argentina, I used Mulesoft an designed with API-led connectivity and TM-FORUM. I help to undestand a customer about Api led connectivity. I maked the task Software Design. I worked with JWT, policies, and SLAS in cloudhub. i worked on git  flow and methodologies agile development. I realized the configuration in salesforce optimized the flows in mulesoft. I worked with MUnit, CI, DI on gitlab. I worked on Visualizer on Cloudhub and Elastic Search APM. I realized the configuration in Anipoints platform."
+      },
+      {
+        "company":"Vass",
+        "title":"Java Developer",
+        "years":"Oct 2019 - March 2020",
+        "description":"The Project was software development that manges the business process in the customer portal using Java Web technologies (JSP, PORTLETS, Spring MVC integrations, OSGI) on the LIFERAY platform. This used best practices in API builder and desing for Reston This integrated process of security with JWT and OAuth, I have architecture that highly-performed. This Front-end is created from JSP, HTML5, JS, and JQUERY. We work with agile methodologies, maintain the product, perfom product review task, and refine the  quality of the code, experience with large.scale distributed architectures"
+      },
+
+      {
+        "company":"Conexia",
+        "title":"Java Developer",
+        "years":"Aug 2019 - Oct 2019",
+        "description":"The project was sotware Development that manges the business process in the product insurance for the Healthcare industry, this used JAVA WEB technologies (JSP, JSF PRIMEFACES, spring MVC integration, CD, CI) on the JEE platform, integration into a REST and SOA architecture is performed, We work with agile methodologies, maintain the product, perform product review tasks, and refine the quality of the code."
+      },
+      {
+        "company":"Grupodot",
+        "title":"Java Developer",
+        "years":"April 2018- July 2019",
+        "description":"The proyect implemented with cloud technologies such as GCP, following standards and architecture for monoliths and microservices, working with technology tools, such as Compute Engine, Appengine, Kubernetes Egine, Dataflow, Bigquery, Container registry. The project developed software in portlets that manage the business process on the pensions company use JEE technologies (JSP, JSF, PORTLETS) on a LIFERAY platform, works with distributed, architectures, and SOAP, with MULE ESB being used for flow creation and orchestrate services. "
+      }
+    ],
+    "skills":[
+      
+      {
+        "name":"Pogramming Languages Java, Js, Dataweave ",
+         "level":"60%"
+      },
+      {
+        "name":"Libraries, Frameworks -Jquery, Mockito, JSF, Junit, Munit",
+        "level":"78%"
+      },
+      {
+        "name":" Tools - JEE, Liferay, Mulesoft, JasperReports, Docker",
+        "level":"90%"
+      },
+      {
+        "name":"Databases - PostgreSQL, Mysql",
+        "level":"90%"
+      }
+    
+    ],
+    "introduce": "MuleSoft Certified Developer - Integration And API Associate (Mule3) - MuleSoft Certified Developer - lavel 1 (mule4) - RAML - CloudHub - Java developer. He has 5 years of experience in software solutions."
+  },
+  "portfolio":{
+    "projects": [
+      
+      {
+        "title":"Fondos de pension",
+        "description":"Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.",
+        "category":"Ahorros",
+        "tags":"Branding, Illustration",
+        "image":"ahorros.jpg",
+        "url":"http://port7.com",
+        "modal":"#modal-07"
+      },
+      {
+        "title":"Telecomunicaciones",
+        "description":"Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.",
+        "category":"Web Development",
+        "tags":"Photography",
+        "image":"telecomunicaciones.jpg",
+        "url":"http://port8.com",
+        "modal":"#modal-08"
+      }
+    ]
+
+  }
+
+
+
+  
+}
