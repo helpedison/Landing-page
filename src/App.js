@@ -16,22 +16,30 @@ class App extends Component {
       portfolioData: {}
     }
   }
-   getPortfolioData(){
-     //Ajax request
-    $.ajax({
-      url: 'http://localhost:3000/portfolioData.json',
-      dataType: 'json',
-      cache: false,
-      success: function(data){
-        this.setState({  portfolioData: data  });
-      }.bind(this),
-      error: function(xhr, status, err){
-        console.log(err);
-        alert(err);
-      }
+  getPortfolioData() {
+    // Fetch request
+    fetch('https://project-profile-business.uc.r.appspot.com/api/myself/data', {
+        method: 'GET',
+        headers: {
+            'Content-Type': 'application/json',
+            'Access-Control-Allow-Origin': '*'
+        }
+    })
+    .then(response => {
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        return response.json();
+    })
+    .then(data => {
+        this.setState({ portfolioData: data });
+    })
+    .catch(error => {
+        console.error("An error occurred while loading the portfolio data: ", error);
+        alert("An error occurred. Please check the console for more details.");
     });
+}
 
-   }
 
 
   componentDidMount(){

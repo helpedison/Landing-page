@@ -13,7 +13,7 @@
       
     },
     "website": "https://github.com/helpedison",
-    "resumedownload":"http://something.com",
+    "resumedownload":"",
     "social":[
    
       {
@@ -24,7 +24,7 @@
       
       {
         "name":"linkedin",
-        "url":"www.linkedin.com/in/edison-vargas-m-881861b4",
+        "url":"www.linkedin.com/edison-vargas-m-881861b4",
         "className":"fa fa-linkedin"
       },
      
